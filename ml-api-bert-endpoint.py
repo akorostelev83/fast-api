@@ -6,7 +6,8 @@ import tensorflow_text as text
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-# cd into directory where this files lives and run this code to start webserver: uvicorn ml-api-bert-endpoint:app --reload
+# cd into directory where this files lives and run this code to start webserver for local testing: 
+# uvicorn ml-api-bert-endpoint:app --reload
 
 preprocess_model = 'https://tfhub.dev/tensorflow/bert_en_uncased_preprocess/3'
 bert_model_url = 'https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-2_H-128_A-2/1'
